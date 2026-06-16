@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Filmmaking Toolkit — Kazakhstan</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="ring"></div>
+
+<!-- ══ NAV ══ -->
+<nav id="nav">
+  <div class="nav-logo">AI Film Toolkit / KZ</div>
+  <div class="nav-links">
+    <a href="#framework">Framework</a>
+    <a href="#selector">Tools</a>
+    <a href="#cases">Cases</a>
+    <a href="#checklist">Risk</a>
+    <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+      <div class="tt-opt active" id="tt-dark">Dark</div>
+      <div class="tt-opt" id="tt-light">Light</div>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag">Master's Thesis Product · 2026</div>
+      <h1 class="hero-title">AI<br><em>Cinema</em><br><span class="outline">in Kazakhstan</span></h1>
+      <p class="hero-desc">A responsible framework for integrating generative AI into film and audiovisual production — where human vision leads, and AI amplifies.</p>
+      <div class="hero-actions">
+        <a href="#framework" class="btn-primary">Explore <span class="arr">→</span></a>
+        <a href="#cases" class="btn-ghost">View Cases ↓</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card"><div class="hero-card-label">Case Studies</div><div class="hero-card-val">03</div><div class="hero-card-sub">Real KZ productions</div></div>
+      <div class="hero-card"><div class="hero-card-label">Workflow Steps</div><div class="hero-card-val">08</div><div class="hero-card-sub">Human-first process</div></div>
+      <div class="hero-card"><div class="hero-card-label">Risk Checks</div><div class="hero-card-val">06</div><div class="hero-card-sub">Pre-publish review</div></div>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="scroll-line"></div><div class="scroll-text">Scroll</div></div>
+</section>
+
+<!-- ══ STRIP ══ -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <span class="accent">Human First</span><span>Suno</span><span>Veo 3</span><span>Adobe Firefly</span><span>Runway</span><span>Kling</span><span>Higgsfield</span><span>Nano Banana Pro</span>
+    <span class="accent">Human First</span><span>Suno</span><span>Veo 3</span><span>Adobe Firefly</span><span>Runway</span><span>Kling</span><span>Higgsfield</span><span>Nano Banana Pro</span>
+  </div>
+</div>
+
+<!-- ══ FRAMEWORK ══ -->
+<section id="framework" class="section">
+  <div class="sec-eyebrow reveal"><span>01</span> The Framework</div>
+  <div class="workflow-wrap">
+  <h2 class="sec-title reveal delay-1">
+    Human–AI<br><em>Production</em><br>Workflow
+  </h2>
+
+  <p class="sec-sub reveal delay-2">
+    Eight stages that map AI assistance across the full production pipeline —
+    with human authority at every gate.
+  </p>
+      <div class="wf-steps" id="wfSteps">
+        <div class="wf-step">
+          <div class="wf-num">01</div>
+          <div><div class="wf-name">Human Creative Intention</div><div class="wf-desc">The director's vision is established before any AI tool is opened.</div></div>
+        </div>
+        <div class="wf-step">
+          <div class="wf-num">02</div>
+          <div><div class="wf-name">Concept & Prompt Development</div><div class="wf-desc">Translating creative intent into precise prompts and briefs.</div></div>
+        </div>
+        <div class="wf-step" >
+          <div class="wf-num">03</div>
+          <div><div class="wf-name">AI Tool Selection</div><div class="wf-desc">Matching the task to the right tool using the evaluation matrix.</div></div>
+        </div>
+        <div class="wf-step">
+          <div class="wf-num">04</div>
+          <div><div class="wf-name">AI Generation</div><div class="wf-desc">Iterative generation with varied parameters and outputs.</div></div>
+        </div>
+        <div class="wf-step" >
+          <div class="wf-num">05</div>
+          <div><div class="wf-name">Human Evaluation</div><div class="wf-desc">A human editor reviews all AI output for quality and fit.</div></div>
+        </div>
+        <div class="wf-step">
+          <div class="wf-num">06</div>
+          <div><div class="wf-name">Editing & Refinement</div><div class="wf-desc">AI-generated material is integrated and refined in the edit.</div></div>
+        </div>
+        <div class="wf-step" >
+          <div class="wf-num">07</div>
+          <div><div class="wf-name">Legal & Ethical Review</div><div class="wf-desc">Copyright, licensing, and cultural sensitivity are verified.</div></div>
+        </div>
+        <div class="wf-step">
+          <div class="wf-num">08</div>
+          <div><div class="wf-name">Final Human Approval</div><div class="wf-desc">No AI-assisted material ships without human sign-off.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TOOL SELECTOR ══ -->
+<section id="selector" class="section">
+  <div class="sec-eyebrow reveal"><span>02</span> Tools</div>
+  <div class="sel-layout">
+    <div>
+      <h2 class="sec-title reveal delay-1">AI Tool<br><em>Selector</em></h2>
+      <p class="sec-sub reveal delay-2">Pick a production task and receive a tool recommendation from the evaluation matrix.</p>
+      <div class="sel-form">
+        <div>
+          <label class="field-label">Production task</label>
+          <select id="taskSelect" onchange="onTaskChange()">
+            <option value="">Choose a task…</option>
+            <option value="soundtrack">Soundtrack Drafting</option>
+            <option value="opening">Opening Sequence</option>
+            <option value="lyric">Lyric Video</option>
+            <option value="promo">Promotional Visuals</option>
+            <option value="lipsync">Lipsync / Motion Control</option>
+          </select>
+        </div>
+        <button class="sel-btn" onclick="recommendTools()">Get Recommendation →</button>
+      </div>
+      <div id="result" class="sel-result">
+        <div id="result-inner"></div>
+      </div>
+    </div>
+
+    <div class="sel-visual reveal delay-2">
+      <div class="sel-img" id="selImg">
+        <div class="sel-img-badge" id="selBadge">—</div>
+        <div class="photo-lbl" id="selLabel">Task visual will appear here</div>
+        <div class="sel-task-name" id="selTaskName"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CASES ══ -->
+<section id="cases">
+
+  <div class="cases-header reveal">
+    <div>
+      <div class="sec-eyebrow"><span>03</span> Cases</div>
+      <h2 class="sec-title">Kazakhstan<br><em>Case Library</em></h2>
+    </div>
+    <p class="sec-sub" style="margin:0;">Three real productions where AI tools were applied, critically tested, and refined through a human-first lens. Tap any tool pill to learn more.</p>
+  </div>
+
+  <!-- CASE 1 -->
+  <div class="case-panel">
+    <div class="case-bg case-bg-1">
+      <video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+     webkit-playsinline
+  preload="auto"
+  >
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+
+    </div>
+
+    <div class="case-content">
+      <div class="case-left">
+        <div class="case-idx">01 / Web Series · Soundtrack</div>
+        <h3 class="case-name">Uljan</h3>
+        <p class="case-desc">AI-assisted melody generation and emotional tone testing used to draft temporary soundtracks — each refined and approved by a human composer before final use.</p>
+
+      </div>
+      <div class="case-card">
+        <div class="case-card-label">AI Tools Used</div>
+        <div class="case-tool-list">
+          <span class="tool-pill" onclick="openDrawer('suno','case1-drawer')">Suno</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DRAWER 1 -->
+  <div class="tool-drawer" id="case1-drawer">
+    <button class="drawer-close" onclick="closeDrawer('case1-drawer', 'suno')">✕</button>
+    <div class="drawer-inner" id="case1-drawer-inner"></div>
+  </div>
+  <div class="case-divider"></div>
+
+  <!-- CASE 2 -->
+  <div class="case-panel">
+    <div class="case-bg case-bg-2">
+        <video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="offside.mp4" type="video/mp4">
+  </video>
+    </div>
+    <div class="case-content">
+      <div class="case-left">
+        <div class="case-idx">02 / Web Series · Opening Sequence</div>
+        <h3 class="case-name"><em>Off</em>side</h3>
+        <p class="case-desc">AI-generated starting frames and short video sequences, edited into the production's title sequence. Motion instability required significant human post-production work.</p>
+      </div>
+      <div class="case-card">
+        <div class="case-card-label">AI Tools Used</div>
+        <div class="case-tool-list">
+          <span class="tool-pill" onclick="openDrawer('nano','case2-drawer')">Nano Banana Pro</span>
+          <span class="tool-pill" onclick="openDrawer('veo3','case2-drawer')">Veo 3</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DRAWER 2 -->
+  <div class="tool-drawer" id="case2-drawer">
+    <button class="drawer-close" onclick="closeDrawer('case2-drawer', null)">✕</button>
+    <div class="drawer-inner" id="case2-drawer-inner"></div>
+  </div>
+  <div class="case-divider"></div>
+
+  <!-- CASE 3 -->
+  <div class="case-panel">
+    <div class="case-bg case-bg-3">
+        <video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+  >
+    <source src="bgzaq.mp4" type="video/mp4">
+  </video>
+    </div>
+    <div class="case-content">
+      <div class="case-left">
+        <div class="case-idx">03 / Music Video · Full Pipeline</div>
+        <h3 class="case-name">ZAQ —<br><em>Better LP</em></h3>
+        <p class="case-desc">End-to-end AI-assisted production covering visuals, animated backgrounds, lipsync, and motion control — the most complete test of the toolkit to date.</p>
+      </div>
+      <div class="case-card">
+        <div class="case-card-label">AI Tools Used</div>
+        <div class="case-tool-list">
+          <span class="tool-pill" onclick="openDrawer('firefly','case3-drawer')">Firefly</span>
+          <span class="tool-pill" onclick="openDrawer('veo3','case3-drawer')">Veo 3</span>
+          <span class="tool-pill" onclick="openDrawer('higgsfield','case3-drawer')">Higgsfield</span>
+          <span class="tool-pill" onclick="openDrawer('runway','case3-drawer')">Runway</span>
+          <span class="tool-pill" onclick="openDrawer('kling','case3-drawer')">Kling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DRAWER 3 -->
+  <div class="tool-drawer" id="case3-drawer">
+    <button class="drawer-close" onclick="closeDrawer('case3-drawer', null)">✕</button>
+    <div class="drawer-inner" id="case3-drawer-inner"></div>
+  </div>
+
+</section>
+
+<!-- ══ CHECKLIST ══ -->
+<section id="checklist" class="section">
+  <div class="sec-eyebrow reveal"><span>04</span> Risk</div>
+  <h2 class="sec-title reveal delay-1">Production<br><em>Readiness</em></h2>
+  <p class="sec-sub reveal delay-2">Complete every item before publishing AI-assisted material. Your score updates live.</p>
+  <div class="check-layout">
+    <div class="check-list">
+      <div class="check-row reveal delay-1" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">AI tool use fully documented</span></div>
+      <div class="check-row reveal delay-2" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">Copyright & licensing reviewed</span></div>
+      <div class="check-row reveal delay-3" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">Platform terms of service confirmed</span></div>
+      <div class="check-row reveal" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">Confidential data protected</span></div>
+      <div class="check-row reveal delay-1" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">Human creative approval obtained</span></div>
+      <div class="check-row reveal delay-2" onclick="toggle(this)"><div class="check-box"><svg class="check-tick" width="11" height="8" viewBox="0 0 11 8" fill="none"><path d="M1 3.8l3 3L10 1" stroke="#080807" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="check-text">Cultural relevance & sensitivity checked</span></div>
+    </div>
+    <div class="gauge-wrap reveal delay-2">
+      <div class="gauge-ring-el" id="gaugeRing">
+        <div class="gauge-core">
+          <div class="gauge-pct" id="gaugePct">0%</div>
+          <div class="gauge-lbl">Ready</div>
+        </div>
+      </div>
+      <div class="gauge-status">
+        <div class="gauge-title" id="gaugeTitle">Not Ready</div>
+        <div class="gauge-msg" id="gaugeMsg">Complete the checklist to assess production readiness.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-line"><em>Human creativity</em> × AI efficiency<br>× ethical control =<br>responsible cinema.</div>
+  <div class="footer-meta">Thesis Product<br>Nursultan Arapbayev<br>Kazakhstan · 2026</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
